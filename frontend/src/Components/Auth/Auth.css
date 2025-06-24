@@ -1,0 +1,83 @@
+.auth{
+  display: flex;
+  margin: auto;
+  margin-top: 10%;
+  background-color: #fff;
+  min-height: 500px;
+  width: 50%;
+}
+.authParent{
+  flex: 1;
+}
+.form{
+  flex:2;
+}
+.parentLogin{
+  height: 50%;
+  
+}
+.parentRegister{
+  height: 50%;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.binder{
+  position: fixed;
+  top: 0;
+  height:100%;
+  width: 100%;
+  background-image: url('../../Images/houseBgImg.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form {
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .35) 0px 5px 15px;
+}
+
+.form .form__custom-button {
+  margin-top: 50px;
+}
+
+/* .submit{
+  background-color: #3e5b3e;
+  max-width: 200px;
+  margin: 0 auto;
+} */
+.formTop{
+  display: flex;
+}
+
+.loginTop{
+  flex: 1;
+  border-right: 1px solid black;
+  cursor: pointer;
+  font-size: 20px;
+}
+.registerTop{
+  cursor: pointer;
+  flex:1;
+  font-size: 20px;
+
+}

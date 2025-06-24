@@ -1,0 +1,131 @@
+.navbar{
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px;
+}
+
+.title{
+  position: absolute;
+  left:80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.logo{
+  margin-left:10px;
+  cursor: pointer;
+}
+.myProperty{
+  position: absolute;
+  left:300px;
+  cursor: pointer;
+}
+.allUsers{
+  position: absolute;
+  left:500px;
+  cursor: pointer;
+}
+.settingIcon{
+  cursor: pointer;
+  margin-right: 10px;
+}
+.setting{
+  z-index: 1;
+  position: absolute;
+  top: 62px;
+  right:0;
+  transform: translateX(-3px);
+  background-color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+  padding: 15px 5px;
+}
+
+.account{
+  cursor: pointer;
+  /* height: 30px; */
+  /* float: left; */
+}
+.account:hover
+{
+  background-color: rgb(218, 218, 218);
+}
+.accountDetails{
+  margin-left:50%;
+  transform: translateX(-30px);
+}
+.nameMail{
+  /* transform: translateX(-70px); */
+  display: flex;
+}
+.name{
+  flex: 1;
+  font-size: 20px;
+}
+.mail{
+  flex: 1;
+  margin-left: 150px;
+  font-size: 20px;
+}
+.logout{
+  cursor: pointer;
+  float: left;
+  padding-right:32px
+}
+.logout:hover
+{
+  background-color: rgb(218, 218, 218);
+}
+.smallWidthOption{
+  display:none;
+}
+
+.routeBar{
+  z-index: 1;
+  position: absolute;
+  top: 62px;
+  right:0;
+  transform: translateX(-103px);
+  background-color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+  padding: 15px 5px;
+}
+.myHouse{
+  /* transform: translateX(-5px); */
+  padding-right: 10px;
+  cursor: pointer;
+}
+.myHouse:hover
+{
+  background-color: rgb(218, 218, 218);
+}
+.allUsers1{
+  padding-right: 12px;
+  cursor: pointer;
+
+}
+.allUsers1:hover
+{
+  background-color: rgb(218, 218, 218);
+}
+@media screen and (max-width:650px) {
+  .smallWidthOption{
+    display:block;
+    /* position: absolute;
+    right: 0; */
+    /* float: right; */
+  }
+  .threeLines{
+    /* float: right;
+     */
+     position: absolute;
+     margin-left: 200px;
+  }
+  .myProperty{
+    display: none;
+  }
+  .allUsers{
+    display: none;
+  }
+}

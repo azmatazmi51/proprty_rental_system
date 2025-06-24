@@ -1,0 +1,113 @@
+.propertyList{
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 5px;
+  width: 70%;
+  height:120px;
+  margin: auto;
+  margin-top: 20px;
+  transform: translateX(-90px);
+  /* margin-left: 20px; */
+}
+
+.homeIcon{
+  float:left;
+  margin-top: 10px;
+}
+
+.address{
+  float: left;
+  margin-top: 30px;
+}
+
+.desc{
+  display: flex;
+  position: absolute;
+  transform: translateY(70px);
+  width: 40%;
+}
+.descElements1{
+  height: 30px;
+  flex:1;
+}
+.descElements{
+  border-left: 2px solid rgb(147, 151, 147);
+  height: 40px;
+  flex:1;
+}
+
+.totalProperties{
+  float:left;
+  margin-left: 50px;
+}
+
+.options{
+  float:right;
+}
+.options:hover{
+  background-color: rgb(155, 155, 155);
+  border-radius: 15px;
+  transition: 200ms;
+}
+
+
+
+.rent{
+
+   margin-right: 0;
+}
+.area{
+  transform: translateX(140px);
+}
+
+.optionsBar{
+  float: right;
+  /* position:absolute;
+  left:70%; */
+  transform: translate(120px,20px);
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 5px;
+  padding: 15px 5px;
+}
+
+.filterMinWid{
+  float: right;
+  border-radius: 15px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width:800px){
+  .filterMinWid{
+    display: block;
+  }
+  .filterMaxWid
+  {
+    display: none;
+  }
+  .propertyList{
+    transform: translateX(0);
+  }
+}
+@media screen and (min-width:801px){
+  .filterMinWid{
+    display: none;
+  }
+  .filterMaxWid
+  {
+    display: block;
+  }
+}
+
+.editModal{
+  cursor: pointer;
+}
+.editModal:hover{
+  background-color: rgb(159, 159, 159);
+}
+.deleteModal{
+  cursor: pointer;
+}
+.deleteModal:hover{
+  background-color: rgb(159, 159, 159);
+}
